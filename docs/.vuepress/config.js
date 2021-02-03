@@ -9,7 +9,7 @@ module.exports = {
     markdown: {
         lineNumbers: false // 代码块显示行号
     },
-    repo: 'https://github.com/SWQ1234',
+    repo: 'https://github.com/sunwenqiangy',
     themeConfig: {
       logo: '/avatar.png',  // 左上角logo
       nav:[ // 导航栏配置
