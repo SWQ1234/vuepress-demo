@@ -9,15 +9,46 @@ module.exports = {
     markdown: {
         lineNumbers: false // 代码块显示行号
     },
+    repo: 'https://github.com/SWQ1234',
     themeConfig: {
       logo: '/avatar.png',  // 左上角logo
       nav:[ // 导航栏配置
         {text: '首页', link: '/' },
         {text: '技术文档', link: '/tech/interview/' },
+        {
+          text: '文章',
+          // 这里是下拉列表展现形式。
+          items: [
+            { text: 'vue学习', link: '/vue/' },
+            { text: 'css学习', link: '/tech/curry/'}, 
+            { text: 'JS学习', link: '/JS/'}, 
+          ], 
+          
+      
+        },
         {text: 'CSDN主页', link: 'https://blog.csdn.net/qq_41782551?spm=1001.2014.3001.5343'}      
       ],
-      sidebar: 'auto', // 侧边栏配置
-      sidebarDepth: 2, // 侧边栏显示2级
+      // sidebar: 'auto',// 侧边栏配置
+      sidebar: {
+        '/vue/': [
+          '',     /* /foo/ */
+          'vue2',  /* /foo/one.html */
+          'vue3',
+          'vue响应式'  /* /foo/two.html */
+        ],
+  
+        '/JS/': [
+          '',      /* /bar/ */
+          'three', /* /bar/three.html */
+          'four'   /* /bar/four.html */
+        ],
+  
+        // fallback
+        '/': [
+          '',        /* / */
+        ]
+      },
+      sidebarDepth: 3, // 侧边栏显示3级
     },
     serviceWorker: true,    // 是否开启 PWA
   };
