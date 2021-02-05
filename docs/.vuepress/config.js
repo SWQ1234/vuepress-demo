@@ -22,6 +22,7 @@ module.exports = {
             { text: 'vue学习', link: '/vue/' },
             { text: 'css学习', link: '/tech/curry/'}, 
             { text: 'JS学习', link: '/JS/'}, 
+            { text: '数据结构与算法', link: '/数据结构与算法/'}, 
           ], 
           
       
@@ -41,6 +42,11 @@ module.exports = {
           '',      /* /bar/ */
           'three', /* /bar/three.html */
           'four'   /* /bar/four.html */
+        ],
+        '/数据结构与算法/': [
+          '',      /* /bar/ */
+          '栈'     /* /bar/three.html */
+                   /* /bar/four.html */
         ],
   
         // fallback
