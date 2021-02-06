@@ -44,14 +44,16 @@ module.exports = {
           'four'   /* /bar/four.html */
         ],
         '/数据结构与算法/': [
-          '',      /* /bar/ */
-          '栈',    /* /bar/three.html */
-          '20-有效的括号(栈)'         /* /bar/four.html */
+          '',      
+          '栈',   
+          '20-有效的括号(栈)',
+          '队列',
+          '933.最近的请求次数'        
         ],
   
         // fallback
         '/': [
-          '',        /* / */
+          '',       
         ]
       },
       sidebarDepth: 3, // 侧边栏显示3级
