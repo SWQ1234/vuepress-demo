@@ -45,8 +45,8 @@ module.exports = {
         ],
         '/数据结构与算法/': [
           '',      /* /bar/ */
-          '栈'     /* /bar/three.html */
-                   /* /bar/four.html */
+          '栈',    /* /bar/three.html */
+          '20-有效的括号(栈)'         /* /bar/four.html */
         ],
   
         // fallback
