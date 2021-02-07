@@ -56,7 +56,7 @@ module.exports = {
           '',       
         ]
       },
-      sidebarDepth: 3, // 侧边栏显示3级
+      sidebarDepth: 3,  // 侧边栏显示3级
     },
     serviceWorker: true,    // 是否开启 PWA
   };
