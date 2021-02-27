@@ -22,6 +22,7 @@ module.exports = {
             { text: 'vue学习', link: '/vue/' },
             { text: 'css学习', link: '/tech/curry/'}, 
             { text: 'JS学习', link: '/JS/'}, 
+            { text: 'Http', link: '/Http/'}, 
             { text: '数据结构与算法', link: '/数据结构与算法/'}, 
           ], 
           
@@ -57,6 +58,11 @@ module.exports = {
           '83.删除排序链表中的重复元素',
           '141环形链表',
           '206反转链表',  
+        ],
+        '/Http/': [
+          '',  
+          'HTTP服务过程'  
+          
         ],
   
         // fallback
